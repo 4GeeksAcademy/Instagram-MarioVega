@@ -1,0 +1,85 @@
+body {
+    
+    background-color: black;
+
+}
+
+.post {
+    background-color: white;
+    margin: 0 auto;
+    width: 500PX;
+    border-radius: 5px;
+}
+
+.post-header {
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header {
+    
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0px 3px 0px 5px;
+    
+}
+.left-header i {
+    font-size: 40px;
+}
+
+
+.post-img {
+    background-image: url(".vscode/tren.jpg");
+    height: 470px;
+    width: 100%;
+    background-position: right;
+}
+ .rigth-header{
+    margin-right: 15px;
+    font-size: 30px;
+ }
+ h1{
+    font-size: small;
+    margin: 0;
+ }
+ h2{
+    margin: 0;
+    font-size: smaller;
+    font-weight: normal;
+ }
+ .titulo-post{
+    margin-left: 3px;
+ }
+ /* div {
+    border: 1px solid red;
+ }  */
+ p{
+    font-family: "Inria Sans", sans-serif;
+ }
+ .post-body{
+    height: 100%;
+    width: 100%;
+margin: 4px 4px 4px 4px;
+ }
+ .post-iconos{
+    margin-top: 8px;
+    margin-bottom: 4px;
+    display: flex;
+justify-content: space-between;
+ }
+ .left-icons{
+    font-size: 32px;
+    margin-left: 8px;
+ }
+ .rigth-icons {
+    font-size: 32px;
+    text-align: end;
+    margin-right: 15px;
+ }
+.textos {
+    margin-bottom: 10px;
+    overflow:hidden;
+}
